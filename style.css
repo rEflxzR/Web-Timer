@@ -1,0 +1,51 @@
+.h1 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 70px;
+}
+
+.container {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dial {
+    height: 400px;
+    width: 400px;
+}
+
+.timer {
+    display: inline-block;
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.controls input {
+    border: none;
+    text-align: center;
+    width: 220px;
+    font-size: 50px;
+}
+
+.controls input:focus {
+    outline: none;
+}
+
+.controls button {
+    font-size: 50px;
+    border: none;
+    background-color: white;
+}
