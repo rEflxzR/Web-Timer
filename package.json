@@ -1,0 +1,23 @@
+{
+  "name": "web-timer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serverside.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node serverside.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rEflxzR/Web-Timer.git"
+  },
+  "author": "PC",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rEflxzR/Web-Timer/issues"
+  },
+  "homepage": "https://github.com/rEflxzR/Web-Timer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
